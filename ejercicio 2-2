@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02/2</title>
+    </head>
+    <body>
+        <h3>Mejores libros</h3>
+        <table>
+            <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Año de publicación</th>
+                <th>Enlace a Amazon</th>
+            </tr>
+            <tr>
+                <td>Harry Potter And The Philosopher'S Stone</td>
+                <td>J.K. Rowling</td>
+                <td>26 de junio de 1997</td>
+                <td><a href="https://www.amazon.es/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658/ref=sr_1_2?adgrpid=148924648921&gclid=CjwKCAiA3KefBhByEiwAi2LDHHElFgn74vM9TnhYjjlaUsFTMC4oDVqOOh3a0eMdbhlxl0mL6aG1QBoCPMUQAvD_BwE&hvadid=645543647039&hvdev=c&hvlocphy=1028528&hvnetw=g&hvqmt=b&hvrand=18195744741930918103&hvtargid=kwd-314706594182&hydadcr=1509_2238617&keywords=harry+potter+book&qid=1676323325&sr=8-2" target="_blank">Click para comprar</a></td>
+            </tr>
+            <tr>
+                <td>Harry Potter And The Philosopher'S Stone. Minalima</td>
+                <td>J.K. Rowling</td>
+                <td>20 de Octubre de 2000</td>
+                <td><a href="https://www.amazon.es/Harry-Potter-Philosphers-Stone-Minalima/dp/1526626586/ref=sr_1_3?adgrpid=148924648921&gclid=CjwKCAiA3KefBhByEiwAi2LDHHElFgn74vM9TnhYjjlaUsFTMC4oDVqOOh3a0eMdbhlxl0mL6aG1QBoCPMUQAvD_BwE&hvadid=645543647039&hvdev=c&hvlocphy=1028528&hvnetw=g&hvqmt=b&hvrand=18195744741930918103&hvtargid=kwd-314706594182&hydadcr=1509_2238617&keywords=harry+potter+book&qid=1676323325&sr=8-3" target="_blank">Click para comprar</a></td>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Order of the Phoenix</td>
+                <td>J.K. Rowling</td>
+                <td>04 de Octubre de 2008</td>
+                <td><a href="https://www.amazon.es/HP-ORDER-PHOENIX-ILL-ED/dp/1408845687/ref=sr_1_4?adgrpid=148924648921&gclid=CjwKCAiA3KefBhByEiwAi2LDHHElFgn74vM9TnhYjjlaUsFTMC4oDVqOOh3a0eMdbhlxl0mL6aG1QBoCPMUQAvD_BwE&hvadid=645543647039&hvdev=c&hvlocphy=1028528&hvnetw=g&hvqmt=b&hvrand=18195744741930918103&hvtargid=kwd-314706594182&hydadcr=1509_2238617&keywords=harry+potter+book&qid=1676323325&sr=8-4" target="_blank">Click para comprar</a></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
