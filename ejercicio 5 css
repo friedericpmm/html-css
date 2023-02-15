@@ -1,0 +1,45 @@
+# html-css
+Ejercicios de OpenBootcamp
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Ganando precisión con los selectores en CSS"</title>
+    <link rel="stylesheet" href="ejercss.css">
+</head>
+<body>
+    <h1 id="titulo">Lista de compras</h1>
+    <div>
+        <div class="encabezado">
+            <ul>
+                <li id="elemento-1">Harina</li>
+                <li id="elemento-2">Huevos</li>
+                <li id="elemento-3">Leche</li>
+                <li id="elemento-4">Chocolate</li>
+                <li id="elemento-5">Mantequilla</li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <ol>
+                <li id="elemento-1">El Dorado</li>
+                <li id="elemento-2">Cada</li>
+                <li id="elemento-3">Central Madeirense</li>
+                <li id="elemento-4">El Bodegon</li>
+                <li id="elemento-5">Rey David</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
+
+#Estilos Css
+#elemento-1 {
+    color: red;
+}
+
+.encabezado #elemento-1 {
+    font-size: 2rem;
+}
