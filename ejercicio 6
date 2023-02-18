@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disposición de elementos en CSS</title>
+    <link rel="stylesheet" href="ejercss.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h3>Imagenes</h3>
+        <div class="galeria">
+            <img class="imagen-galeria" src="img/caitlyn.jpg" alt="imagen1">
+            <img class="imagen-galeria" src="img/jayce.jpg" alt="imagen2">
+            <img class="imagen-galeria" src="img/jinx.jpg" alt="imagen3">
+            <img class="imagen-galeria" src="img/katarina.jpg" alt="imagen4">
+            <img class="imagen-galeria" src="img/vi.jpg" alt="imagen5">
+            <img class="imagen-galeria" src="img/ekko.jpg" alt="imagen6">
+        </div>
+    </div>
+</body>
+</html>
+
+css
+* {
+    padding: 0;
+    margin: 0;
+}   
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagen-galeria {
+    width: 300px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
