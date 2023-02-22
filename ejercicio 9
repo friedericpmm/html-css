@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones y transiciones en CSS</title>
+    <link rel="stylesheet" href="ejercss.css">
+</head>
+<body>
+    <div class="contenedor">
+        <button class="btn-modern">Buscar</button>
+    </div>
+</body>
+</html>
+
+css
+.contenedor {
+    position: relative;
+    right: end;
+    height: 200px;
+    background-color: rgb(220, 233, 245);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    padding: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.btn-modern {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    position: flex;
+    border: none;
+    background-color: rgb(61, 47, 47);
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    justify-content: center;
+    transition: transform 0.4s ease-in;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    color: rgb(15, 2, 27);
+    background-color: rgb(170, 226, 226);
+}
